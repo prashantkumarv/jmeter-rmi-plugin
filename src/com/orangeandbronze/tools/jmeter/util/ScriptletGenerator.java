@@ -22,7 +22,7 @@ import java.util.Properties;
 import java.util.Map;
 import org.apache.jorphan.logging.LoggingManager;
 import org.apache.log.Logger;
-import org.apache.commons.lang.StringEscapeUtils;
+import org.apache.commons.lang3.StringEscapeUtils;
 
 /**
  * Describe class ScriptletGenerator here.
