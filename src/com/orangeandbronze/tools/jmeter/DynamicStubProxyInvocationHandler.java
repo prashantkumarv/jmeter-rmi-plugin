@@ -45,7 +45,7 @@ public class DynamicStubProxyInvocationHandler
 
     public Object invoke(Object instance, Method m, Object[] args) throws Throwable {
         log.info("Calling method " + m.getName());
-        MethodCallRecord r = new MethodCallRecord(m, args);
+        MethodCallRecord r = new MethodCallRecord(instanceName, m, args);
         log.info("Record created");
 
         // Classes might suddenly change state under us when we pack
